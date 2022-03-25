@@ -1,8 +1,39 @@
 
-[class^="container"], [class^="col"]{
+[class^="col"]{
   background-color: rgba(95, 158, 160, .2);
   border: 1px solid black;
   min-height: 10vh;
 }
 
+.debug{
+  background-color: rgba(214, 83, 83, 0.555);
+  border: 1px solid black;
+}
 
+header{
+  height: 10vh;
+}
+
+.sd-jumbotron{
+  height: 70vh;
+}
+
+.sd-portfolio{
+  height: 100vh;
+}
+
+.sd-about{
+  height: 60vh;
+}
+
+.sd-contact-form{
+  height: 80vh;
+}
+
+footer ._top{
+  height: 25vh;
+}
+
+footer ._bottom{
+  height: 12vh;
+}
