@@ -1,0 +1,8 @@
+
+[class^="container"], [class^="col"]{
+  background-color: rgba(95, 158, 160, .2);
+  border: 1px solid black;
+  min-height: 10vh;
+}
+
+
