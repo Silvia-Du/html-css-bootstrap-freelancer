@@ -128,10 +128,23 @@ header{
   padding: 60px 0;
 }
 
+/* FOOTER */
+
+footer{
+  color: white;
+  
+}
+
 footer ._top{
   min-height: 25vh;
+  background-color: #3a546d;
 }
 
 footer ._bottom{
   min-height: 12vh;
+}
+
+.sd-footer-title{
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
