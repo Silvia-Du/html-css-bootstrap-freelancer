@@ -54,22 +54,22 @@ header{
   background-color: #1abc9c;
 }
 
-.sd-container50{
-  width: 50%;
+.sd-container65{
+  width: 65%;
   margin: 0 auto;
 }
 
-.sd-jumbotron .sd-container50{
+.sd-jumbotron .sd-container65{
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.sd-jumbotron .sd-container50 img{
+.sd-jumbotron .sd-container65 img{
   width: 45%;
 }
 
-.sd-jumbotron .sd-container50 span{
+.sd-jumbotron .sd-container65 span{
   display: inline-block;
   font-size: 1.3rem;
   color: white;
@@ -188,6 +188,69 @@ footer .top .center .bord-i{
 }
 
 /* media query */
+
+@media screen and (min-width: 992px){
+  .sd-container65{
+    max-width: 880px;
+  }
+}
+
+@media screen and (max-width: 992px){
+
+  .sd-container65{
+    width: 90%;
+  }
+
+  .sd-jumbotron .sd-container65 img{
+    width: 30%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .sd-jumbotron{
+    padding: 30px 0;
+  }
+
+  .sd-jumbotron .sd-container65 img{
+    width: 45%;
+  }
+
+  .sd-jumbotron .sd-container65 .sd-title{
+    font-size: 2.8rem;
+  }
+
+  .sd-portfolio .sd-title-dark,
+  .sd-about .sd-title,
+  .sd-contact-form .sd-title-dark{
+    font-size: 2.6rem;
+  }
+
+  footer .bottom .left, .center , .right{
+    margin-bottom: 20px;
+  }
+
+  footer .bottom .sd-title, .sd-subtitle{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .sd-jumbotron .sd-container65 .sd-title{
+    font-size: 2.6rem;
+  }
+
+  .sd-jumbotron .sd-container65 span{
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
 
 
 
