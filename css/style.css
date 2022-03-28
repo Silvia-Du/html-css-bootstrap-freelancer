@@ -1,0 +1,127 @@
+/* utitlitys */
+[class^="col"]{
+  background-color: rgba(95, 158, 160, .2);
+  border: 1px solid black;
+  min-height: 10vh;
+}
+
+.debug{
+  background-color: rgba(214, 83, 83, 0.555);
+  border: 1px solid black;
+}
+
+
+/* /utitlitys */
+
+/* GENERAL */
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+p.sd-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  font-size: 3rem;
+}
+
+p.sd-title-dark{
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333333;
+  font-size: 3rem;
+}
+
+
+.sd-container70{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* /GENERAL */
+
+
+header{
+  height: 80px;
+  /* position: fixed;
+  top: 0;
+  z-index: 999; */
+  color: white;
+  background-color: #2c3e50;
+}
+
+
+/* JUMBOTRON */
+
+.sd-jumbotron{
+  min-height: 50vh;
+  padding: 75px 0;
+  background-color: #1abc9c;
+}
+
+.sd-container50{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sd-jumbotron .sd-container50{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sd-jumbotron .sd-container50 img{
+  width: 45%;
+}
+
+.sd-jumbotron .sd-container50 span{
+  display: inline-block;
+  font-size: 1.2rem;
+  color: white;
+  
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+
+/* MAIN */
+
+/* portfolio */
+
+.sd-portfolio{
+  min-height: 50vh;
+  padding: 60px 0;
+}
+
+.sd-card{
+  border-radius: 17px;
+  overflow: hidden;
+  /* border: 1px solid ; */
+}
+
+.sd-card img{
+  width: 100%;
+}
+
+.sd-col{
+  margin-bottom: 20px;
+}
+
+/* about */
+
+.sd-about{
+  min-height: 50vh;
+  background-color: #1abc9c;
+}
+
+.sd-contact-form{
+  min-height: 50vh;
+}
+
+footer ._top{
+  min-height: 25vh;
+}
+
+footer ._bottom{
+  min-height: 12vh;
+}
