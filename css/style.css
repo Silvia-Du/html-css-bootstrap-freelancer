@@ -34,8 +34,7 @@ p.sd-title-dark{
   margin: 0 auto;
 }
 
-/* /GENERAL */
-
+/* HEADER */
 
 header{
   height: 80px;
@@ -44,6 +43,16 @@ header{
   z-index: 999; */
   color: white;
   background-color: #2c3e50;
+}
+
+.sd-nav-title{
+  text-transform: uppercase;
+}
+
+.sd-navbar-toggler{
+  border: 2px solid #dddddd;
+  color: #888888;
+  border-color: #dddddd;
 }
 
 
