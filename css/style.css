@@ -111,11 +111,21 @@ header{
 
 .sd-about{
   min-height: 50vh;
+  padding: 60px 0;
   background-color: #1abc9c;
+  color: white;
 }
+
+.sd-btn-download{
+  color: white;
+  border-color: white;
+}
+
+/* contact */
 
 .sd-contact-form{
   min-height: 50vh;
+  padding: 60px 0;
 }
 
 footer ._top{
