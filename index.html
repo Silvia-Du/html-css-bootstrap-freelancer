@@ -32,8 +32,8 @@
       <div class="sd-subtitl d-flex">
         <span>Graphic artist</span>
         <i class="fa-solid fa-hyphen"></i>
-        <span>Web designer</span>
-        <span>Illustrator</span>
+        <span>- Web designer</span>
+        <span>- Illustrator</span>
       </div>
       
     </div>
@@ -84,23 +84,23 @@
       </div>
     </div>
     <!-- about -->
-    <div class="sd-about debug">
+    <div class="sd-about">
       <div class="container text-center mb-3">
         <p class="sd-title">About</p>
         <div class="stella">---stella----</div>
       </div>
-      <div class="sd-container70 debug">
+      <div class="sd-container70">
         <div class="container-fluid text-center">
           <div class="row row-cols-1 row-cols-md-2">
-            <div class="col">
+            <div class="col text-start">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas architecto, voluptatum id illo rerum deserunt maiores soluta modi, facere impedit tempora? Vitae quo quas, nesciunt a tenetur animi veritatis ut quibusdam!
             </div>
-            <div class="col">
+            <div class="col text-start">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos totam nemo sequi accusamus exercitationem officia! Dolor repudiandae laboriosam alias quae. Aliquid beatae nihil expedita nostrum dolorum reprehenderit sunt quas.
             </div>
           </div>
-          <button type="button sd-btn-download my-2" class="btn btn-outline-primary">
-            
+          <button type="button" class="btn btn-outline-light sd-btn-download my-4">
+            <i class="fa-solid fa-download"></i>
             Download
           </button>
         </div>
@@ -113,17 +113,14 @@
         <div class="stella">---stella----</div>
       </div>
       <div class="sd-container70 debug">
-        <div class="mb-3">
-          <input type="text" class="form-control" id="name-surname" placeholder="Name">
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="e-mail" placeholder="Email Address">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="phone-number" placeholder="Phone Number">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text-area" placeholder="Message">
+
+        <input type="text" class="form-control sd-form-item" id="name-surname" placeholder="Name">
+        <input type="email" class="form-control sd-form-item" id="e-mail" placeholder="Email Address">
+        <input type="text" class="form-control sd-form-item" id="phone-number" placeholder="Phone Number">
+        <textarea class="form-control sd-form-item" placeholder="Message" cols="20"></textarea>
+        
+        <div class="mb-1">
+          <button type="submit" class="btn btn-primary sd-btn-send my-3">Send</button>
         </div>
       </div>
     </div>
@@ -135,24 +132,49 @@
   <!-- FOOTER -->
   <footer>
 
-    <div class="_top debug">
+    <div class="top">
       <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
-          <div class="col left"></div>
+
+          <div class="col left text-center">
+            <p class="sd-footer-title">Location</p>
+            <p class="sd-subtitle">2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+
           <div class="col center text-center">
             <p class="sd-footer-title">Around the web</p>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-google-plus-g"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+            <div class="icon-container d-flex justify-content-center">
+              <div class="bord-i mx-1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="bord-i mx-1">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="bord-i mx-1">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="bord-i mx-1">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
           </div>
-          <div class="col right"></div>
+
+          <div class="col right text-center">
+            <p class="sd-footer-title">About freelancer</p>
+            <p class="sd-subtitle">Freelance is a free to use, open source Bootstrap theme created by 
+              <a class="link-cta-footer" href="#">Start Bootstrap</a>.
+            </p>
+          </div>
         </div>        
       </div>
     </div>
-    <div class="_bottom debug text-center">
+    <div class="bottom text-center py-4">
       <div class="copyright">
-        <p>testo</p>
+        <p>
+          Copyright
+          <i class="fa-regular fa-copyright"></i>
+          Your Website 2019
+        </p>
       </div>
     </div>
 

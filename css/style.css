@@ -1,9 +1,4 @@
 /* utitlitys */
-[class^="col"]{
-  background-color: rgba(95, 158, 160, .2);
-  border: 1px solid black;
-  min-height: 10vh;
-}
 
 .debug{
   background-color: rgba(214, 83, 83, 0.555);
@@ -55,7 +50,6 @@ header{
 /* JUMBOTRON */
 
 .sd-jumbotron{
-  min-height: 50vh;
   padding: 75px 0;
   background-color: #1abc9c;
 }
@@ -77,11 +71,10 @@ header{
 
 .sd-jumbotron .sd-container50 span{
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
-  
   text-transform: uppercase;
-  margin: 0 15px;
+  margin: 0 4px;
 }
 
 /* MAIN */
@@ -89,7 +82,6 @@ header{
 /* portfolio */
 
 .sd-portfolio{
-  min-height: 50vh;
   padding: 60px 0;
 }
 
@@ -110,8 +102,7 @@ header{
 /* about */
 
 .sd-about{
-  min-height: 50vh;
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
   background-color: #1abc9c;
   color: white;
 }
@@ -121,11 +112,31 @@ header{
   border-color: white;
 }
 
+.sd-btn-download:hover{
+  color: #2c3e4f;
+  background-color: white;
+}
+
 /* contact */
 
 .sd-contact-form{
-  min-height: 50vh;
   padding: 60px 0;
+}
+
+.sd-form-item{
+  border-bottom: 1px solid #afabab;
+  color: #364758;
+  border-radius: 0;
+}
+
+.sd-btn-send{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.sd-btn-send:hover{
+  background-color: #1f826c;
+  border-color: #1f826c;
 }
 
 /* FOOTER */
@@ -135,16 +146,48 @@ footer{
   
 }
 
-footer ._top{
-  min-height: 25vh;
+footer .top{
   background-color: #3a546d;
+  padding: 40px 0;
 }
 
-footer ._bottom{
-  min-height: 12vh;
+footer .bottom{
+  background-color: #2c3e50;
+  font-size: 0.8rem;
 }
 
 .sd-footer-title{
   font-size: 1.2rem;
+  font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
+
+footer .top .sd-subtitle{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+footer .top .center .bord-i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.link-cta-footer{
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+.link-cta-footer:hover{
+  color: #9ff7e5;
+}
+
+/* media query */
+
+
+
