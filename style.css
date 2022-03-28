@@ -10,10 +10,13 @@
   border: 1px solid black;
 }
 
-
-
 header{
-  min-height: 10vh;
+  height: 80px;
+}
+
+.sd-container70{
+  width: 70%;
+  margin: 0 auto;
 }
 
 .sd-jumbotron{
