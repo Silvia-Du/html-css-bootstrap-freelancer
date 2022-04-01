@@ -14,18 +14,18 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
-p.sd-title{
+.sd-title{
   text-transform: uppercase;
   font-weight: 600;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-p.sd-title-dark{
+.sd-title-dark{
   text-transform: uppercase;
   font-weight: 600;
   color: #333333;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 
@@ -61,7 +61,30 @@ header{
 .sd-jumbotron{
   padding: 75px 0;
   background-color: #1abc9c;
+  color: white;
+  
 }
+
+.sd-jumbotron img{
+  width: 300px;
+}
+
+.sd-star i{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.sd-star::before,
+.sd-star::after{
+  content: ' ';
+  display: inline-block;
+  height: 5px;
+  width: 20%;
+  background-color: white;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
 
 
 /* star */
@@ -247,18 +270,15 @@ footer .top .center .bord-i a{
 
 }
 
-@media screen and (max-width: 992px){
-
-
-
-}
-
 
 @media screen and (max-width: 768px){
 
-  .sd-portfolio .sd-title-dark,
-  .sd-about .sd-title,
-  .sd-contact-form .sd-title-dark{
+  .sd-jumbotron h3{
+    font-size: 1.3rem;
+  }
+
+  .sd-title,
+  .sd-title-dark{
     font-size: 2.6rem;
   }
 
@@ -273,6 +293,9 @@ footer .top .center .bord-i a{
 
 @media screen and (max-width: 576px){
   
+  .sd-jumbotron h3{
+    font-size: 1.2rem;
+  }
   
 }
 
