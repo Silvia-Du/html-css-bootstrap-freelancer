@@ -5,7 +5,6 @@
   border: 1px solid black;
 }
 
-
 /* /utitlitys */
 
 /* GENERAL */
@@ -33,6 +32,35 @@ body{
   width: 70%;
   margin: 0 auto;
 }
+
+/* star */
+.sd-star i,
+.sd-star-dark i{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.sd-star::before,
+.sd-star::after{
+  content: ' ';
+  display: inline-block;
+  height: 5px;
+  width: 15%;
+  background-color: white;
+  border-radius: 4px;
+  vertical-align: middle;
+} 
+
+.sd-star-dark::before,
+.sd-star-dark::after{
+  content: ' ';
+  display: inline-block;
+  height: 5px;
+  width: 15%;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  vertical-align: middle;
+} 
 
 /* HEADER */
 
@@ -69,64 +97,6 @@ header{
   width: 300px;
 }
 
-.sd-star i{
-  font-size: 2rem;
-  vertical-align: middle;
-}
-
-.sd-star::before,
-.sd-star::after{
-  content: ' ';
-  display: inline-block;
-  height: 5px;
-  width: 20%;
-  background-color: white;
-  border-radius: 4px;
-  vertical-align: middle;
-}
-
-
-
-/* star */
-
-.sd-jumbotron .star-container{
-width: 41%;
-justify-content: space-between;
-align-items: center;
-}
-
-.sd-jumbotron .star-container .line-star{
-  height: 5px;
-  width: 40%;
-  border-radius: 5px;
-}
-
-.sd-jumbotron .star-container .line-star,
-main .sd-about .star-container .line-star{
-  height: 5px;
-  width: 40%;
-  border-radius: 5px;
-  background-color: white;
-}
-
-.sd-jumbotron .star-container .fa-star,
-main .sd-about .star-container .fa-star{
-  font-size: 1.45rem;
-  color: white;
-}
-
-.sd-jumbotron .star-container .line-star{
-  height: 5px;
-  width: 40%;
-  border-radius: 5px;
-  background-color: #2c3e50;
-}
-
-.sd-jumbotron .star-container .fa-star{
-  font-size: 1.45rem;
-  color: #2c3e50;
-}
-
 
 /* MAIN */
 
@@ -134,6 +104,7 @@ main .sd-about .star-container .fa-star{
 
 .sd-portfolio{
   padding: 60px 0;
+  color: #2c3e4f;
 }
 
 main .sd-portfolio .sd-card{
@@ -191,6 +162,7 @@ main .sd-portfolio .sd-card{
 
 .sd-contact-form{
   padding: 60px 0;
+  color: #2c3e4f;
 }
 
 .sd-form-item{
@@ -267,7 +239,6 @@ footer .top .center .bord-i a{
   .sd-container65{
     max-width: 880px;
   }
-
 }
 
 
@@ -279,7 +250,7 @@ footer .top .center .bord-i a{
 
   .sd-title,
   .sd-title-dark{
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   footer .bottom .left, .center , .right{
@@ -289,6 +260,14 @@ footer .top .center .bord-i a{
   footer .bottom .sd-title, .sd-subtitle{
     font-size: 1.3rem;
   }
+
+  .sd-star-dark::before,
+  .sd-star-dark::after,
+  .sd-star::before,
+  .sd-star::after{
+    width: 20%;
+  }
+
 }
 
 @media screen and (max-width: 576px){
