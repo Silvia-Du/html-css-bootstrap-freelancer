@@ -27,12 +27,6 @@ body{
   font-size: 2.5rem;
 }
 
-
-.sd-container70{
-  width: 70%;
-  margin: 0 auto;
-}
-
 /* star */
 .sd-star i,
 .sd-star-dark i{
@@ -176,15 +170,11 @@ main .sd-portfolio .sd-card{
 
 /* contact */
 
-.sd-contact-form{
-  padding: 60px 0;
-  color: #2c3e4f;
-}
-
 .sd-form-item{
-  border-bottom: 1px solid #afabab;
-  color: #364758;
-  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 5px 0;
 }
 
 .sd-btn-send{
