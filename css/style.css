@@ -78,9 +78,13 @@ header .sd-nav a{
   color: white;
 }
 
-
 header .sd-nav ul{
+  margin: 0;
   list-style: none;
+}
+
+header .sd-nav ul li{
+  margin-left: 20px;
 }
 
 .sd-nav-brand{
@@ -88,9 +92,13 @@ header .sd-nav ul{
   margin-bottom: 0;
 }
 
-/* header .sd-nav-brand:hover{
-  transform: scale(1.1);
-} */
+header .sd-nav i{
+  padding: 1px 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: rgb(158, 151, 151);
+  font-size: 1.2rem;
+}
 
 /* JUMBOTRON */
 
