@@ -247,6 +247,10 @@ footer .top .center .bord-i{
   border-radius: 50%;
 }
 
+footer .top .center .bord-i a{
+  color: white;
+}
+
 .link-cta-footer{
   text-decoration: none;
   color: #1abc9c;
