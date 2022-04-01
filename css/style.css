@@ -5,8 +5,6 @@
   border: 1px solid black;
 }
 
-/* /utitlitys */
-
 /* GENERAL */
 
 body{
@@ -27,7 +25,7 @@ body{
   font-size: 2.5rem;
 }
 
-/* star */
+/* star item */
 .sd-star i,
 .sd-star-dark i{
   font-size: 2rem;
@@ -190,7 +188,6 @@ main .sd-portfolio .sd-card{
 
 footer{
   color: white;
-  
 }
 
 footer .top{
